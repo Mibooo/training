@@ -1,0 +1,14 @@
+@import url(../reset.css);
+@import url(../variables.css);
+
+.attribution {
+  border: 5px solid #13aad0;
+  text-align: center;
+  display: flex;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+}
