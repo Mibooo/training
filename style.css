@@ -1,15 +1,22 @@
 @import url(../reset.css);
 @import url(../variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
   background-color: var(--primary-color);
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 
 
 
 .profile-picture {  
   background-image: url(assets/images/avatar-jessica.jpeg);
+  background-size: cover;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -22,8 +29,8 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  max-width: 500px;
-  max-height: fit-content;
+  width: 500px;
+  max-height: 600px;
   padding: 50px;
   gap: 20px;
 }
@@ -35,12 +42,27 @@ body {
 
 .country {
   color: whitesmoke;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: #B2C875;
 }
 
 .bio {
   color: whitesmoke;
-  font-size: 1.0rem;
+  font-size: 0.8rem;
+}
+
+.link {
+  background-color: grey;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.social-links {
+  gap: 5px;
+  font-size: 0.9rem;
+  font-weight: 100;
 }
 
 
