@@ -1,14 +1,46 @@
 @import url(../reset.css);
 @import url(../variables.css);
 
-.attribution {
-  border: 5px solid #13aad0;
-  text-align: center;
-  display: flex;
+body {
+  background-color: var(--primary-color);
+  height: 100vh;
 }
 
-h2 {
-  text-transform: uppercase;
-  text-align: center;
+
+
+.profile-picture {  
+  background-image: url(assets/images/avatar-jessica.jpeg);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.container {
+  background-color: rgba(46, 45, 45, 0.377);
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  max-height: fit-content;
+  padding: 50px;
+  gap: 20px;
+}
+
+.name {
+  color: whitesmoke;
+  font-size: 2.0rem;
+}
+
+.country {
+  color: whitesmoke;
   font-size: 1.5rem;
 }
+
+.bio {
+  color: whitesmoke;
+  font-size: 1.0rem;
+}
+
+
